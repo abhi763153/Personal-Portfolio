@@ -14,7 +14,6 @@ body{
     height: 100vh;
     padding: 100px;
     background-color: #CAF7E3;
-
     position: relative;
 }
 
@@ -31,12 +30,12 @@ h3{
     width: 200px;
     height: 70px;
     position: absolute;
-    top: 50px;
+    top: 2.5rem;
     right: 17%;
 }
 .my-name{
-    width: 35rem;
-    height: 10rem;
+    /* width: 35rem;
+    height: 10rem; */
     position: absolute;
     top: 18%;
     bottom: 0;left: 0;right: 0;
@@ -64,8 +63,8 @@ h3{
     width: 200px;
     height: 70px;
     position: absolute;
-    top: 300px;
-    left: 16%;
+    top: 18.75rem;
+    left: 17%;
 }
 
 .mountain{
@@ -284,3 +283,31 @@ hr{
     border-width: 4px 0 0 0;
     border-color: rgb(75, 72, 72);
 }
+
+ /* Styling for responsiveness from here */
+
+ @media (max-width: 995px){
+    .bottom-cloud{
+        /* width: 200px;
+        height: 70px; */
+        position: absolute;
+        top: 28rem;
+        left: 14%;
+    }
+    .top-cloud{
+        /* width: 200px;
+        height: 70px; */
+        position: absolute;
+        top: 3.5rem;
+        right: 17%;
+    }
+    .mountain{
+        width: 80%;
+        height: 35rem;
+        position: absolute;
+        margin:0 auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+ }
