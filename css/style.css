@@ -303,11 +303,36 @@ hr{
     }
     .mountain{
         width: 80%;
-        height: 35rem;
+        height: 3510m;
         position: absolute;
         margin:0 auto;
         left: 0;
         right: 0;
         bottom: 0;
+    }
+    .social-media {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .bottom-container{
+        padding-top: 10px;
+    }
+
+ }
+
+ @media (max-width: 500px){
+    .bottom-cloud{
+        display: none;
+    }
+    .top-cloud{
+        display: none;
+    }
+    .skill-row {
+        width: 50%;
+        margin: 12% 8%;
+        display: flex;
+    }
+    .mountain {
+        height: 43%;
     }
  }
