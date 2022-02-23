@@ -303,7 +303,7 @@ hr{
     }
     .mountain{
         width: 80%;
-        height: 3510m;
+        height: 34rem;
         position: absolute;
         margin:0 auto;
         left: 0;
@@ -311,7 +311,7 @@ hr{
         bottom: 0;
     }
     .social-media {
-        width: 60%;
+        width: 63%;
         margin: 0 auto;
     }
     .bottom-container{
@@ -334,5 +334,21 @@ hr{
     }
     .mountain {
         height: 43%;
+    }
+    .cp {
+        font-size: 1.5rem;
+    }
+    .about-me-line {
+        font-size: 1.2rem;
+        margin: 0 7%;
+    }
+    .social-media {
+        width: 75%;
+        justify-content: space-around;
+    }
+    .linkedIn-icon, .GitHub-icon, .CodeChef-icon, .gfg-icon, .HackerRank-icon{
+        width: 30px;
+        height: 30px;
+        margin: 0 12px;
     }
  }
